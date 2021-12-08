@@ -13,7 +13,7 @@ font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
 font-weight: bolder;
 font-style: italic;
 text-shadow: 2px 2px coral;
-position: absolute;}
+}
 
 h1 {font-size: 60px;}
 
@@ -31,7 +31,7 @@ p {font-size: 40px}
   margin: 4px 2px;
   cursor: pointer;
   width: 100%;
-  position: absolute;}
+ }
 
 .button1 {font-size: 40px;
 color: orange;}
@@ -52,8 +52,7 @@ font-style: italic;}
 
 img {border-radius: 50%; 
 width:300px;
-height:250px;
-position: absolute;}
+height:250px;}
 
 h3 {font-weight: bold;
 line-height: 80%;}
@@ -71,7 +70,6 @@ line-height: 180%;}
 
 #img3 {width: 800px;
 height:200px;
-position: absolute;
 }
 
 .header4 {background-color: white;
@@ -82,7 +80,6 @@ font-size: 35px;
 outline-style: groove;
 outline-color: coral;
 outline-width: 7px;
-position: absolute;
 }
 
 h5 {font-size: 20px;
@@ -114,8 +111,8 @@ bottom: 0;
 position: absolute;
 color: lightskyblue;
 border: 5px solid plum;
-width: 300px;
-height: 300px;
+width: 600px;
+height: 600px;
 background-color: lightpink;
 }
 
@@ -127,7 +124,6 @@ form {
 	padding-bottom: 5px;
 	width: 95%;
 	box-shadow:inset 2px 2px 2px peachpuff;
-	position: absolute;
 }
 
 .jumbotron {background-color: orange;}
