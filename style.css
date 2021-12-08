@@ -1,0 +1,183 @@
+body {
+	color: orange;
+	background-repeat: repeat;
+	width:  100%;
+	margin-left: auto;
+	margin-right: auto;
+	background-image: url("frame.jpg");
+}
+
+form {
+	margin-top: 25px;
+	margin-bottom: 10px;
+	padding-left: 10px;
+	padding-top: 10px;
+	padding-bottom: 5px;
+	width: 95%;
+	box-shadow:inset 2px 2px 2px peachpuff;
+}
+
+label {
+	padding: 10px;
+}
+
+textarea {
+	width: 80%;
+	margin: auto;
+	margin-top: 10px;
+	margin-bottom: 15px;
+	display: block;
+}
+
+ol {
+	list-style-type: lower-alpha;
+}
+
+ul {
+	list-style-type: square;
+}
+
+li {
+	margin-top: 5px;
+	margin-bottom: 10px;
+}
+
+a:link {
+	color:  rgb(212, 34, 28);
+	transition: color 2s ease-in;
+}
+
+a:visited {
+	color: rgb(212, 34, 28);
+}
+
+a:hover {
+	color: red;
+}
+
+li a {
+  color: white;
+  text-align: center;
+  padding: 25px;
+}
+
+figure {
+	display: inline-block;
+	text-align: center;
+	padding: 25px;
+}
+
+iframe {
+	border: none;
+	padding-top: 10px;
+}
+
+footer {
+  width:100%;
+  height: 90px;
+  color: white;
+}
+
+hr {
+	color: white;
+	background-color: whitesmoke;
+}
+
+.div {
+	border-style: dotted;
+	text-align: center;
+	padding-top: 5px;
+	padding-bottom: 5px;
+	margin-top: 5px;
+	margin-bottom: 15px;
+	font-weight: bold;
+}
+
+.wrapper {
+	display: flex;
+	justify-content: center;	
+}
+
+.paragraph {
+	border-radius: 25px;
+	padding: 10px;
+	margin-left: 25px;
+	margin-right: 25px;
+	color: darkblue;
+	background-color: mediumturquoise;
+}
+
+.p {
+	padding: 10px;
+	margin: 10px;
+}
+
+.horizontal {
+	list-style-type: none;
+	text-align: center;
+	margin-left: 5px;
+	padding-left: 10px;
+}
+
+.horizontalli {
+	display: inline-block;
+}
+
+.small {
+	width: 300px;
+	height: 300px;
+}
+
+.tiny {
+	width: 25px;
+	padding-left: 2px;
+}
+
+.iframe-container{
+  position: relative;
+  width: 100%;
+  padding-bottom: 56.25%; 
+  height: 0;
+}
+.iframe-container iframe{
+  position: absolute;
+  top:0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+}
+
+#title {
+	text-align: center;
+	font-family: "Helvetica bold", Arial, Helvetica, sans-serif ;
+	font-size: 40px;
+	color: antiquewhite;
+	text-shadow: 1px 1px 5px #CCE4E6;
+}
+
+#paragraph {
+	margin-top: 40px;
+}
+
+#nav { 
+  background-color: whitesmoke;
+  padding: 10px;
+  margin-top: 10px;
+  margin-bottom: 15px;
+}
+
+#links {
+	margin-left: 25px;
+}
+.navbar-default {
+  background-color: #eda20a8b;
+  border: none;
+  color: white;
+  padding: 15px 32px;
+  text-align: left;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  margin: 4px 2px;
+  cursor: pointer;
+  width: 100%;}
