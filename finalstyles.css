@@ -1,6 +1,6 @@
 body {background-color: whitesmoke;
 background-repeat: repeat;
-width:  90%;
+width:  800%;
 margin-left: auto;
 margin-right: auto;}
 
@@ -12,7 +12,8 @@ color: orange;
 font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
 font-weight: bolder;
 font-style: italic;
-text-shadow: 2px 2px coral;}
+text-shadow: 2px 2px coral;
+position: absolute;}
 
 h1 {font-size: 60px;}
 
@@ -29,7 +30,8 @@ p {font-size: 40px}
   font-size: 16px;
   margin: 4px 2px;
   cursor: pointer;
-  width: 100%;}
+  width: 100%;
+  position: absolute;}
 
 .button1 {font-size: 40px;
 color: orange;}
@@ -50,7 +52,8 @@ font-style: italic;}
 
 img {border-radius: 50%; 
 width:300px;
-height:250px;}
+height:250px;
+position: absolute;}
 
 h3 {font-weight: bold;
 line-height: 80%;}
@@ -68,6 +71,7 @@ line-height: 180%;}
 
 #img3 {width: 800px;
 height:200px;
+position: absolute;
 }
 
 .header4 {background-color: white;
@@ -78,6 +82,7 @@ font-size: 35px;
 outline-style: groove;
 outline-color: coral;
 outline-width: 7px;
+position: absolute;
 }
 
 h5 {font-size: 20px;
@@ -105,12 +110,13 @@ font-weight: bold;}
 .right-side {
 right: 5%;
 float: right;
-top: 50%;
+bottom: 0;
 position: absolute;
 color: lightskyblue;
-border:2px solid orange;
-outline-color: bisque;  
-outline-style:initial;
+border: 5px solid plum;
+width: 300px;
+height: 300px;
+background-color: lightpink;
 }
 
 form {
@@ -121,6 +127,7 @@ form {
 	padding-bottom: 5px;
 	width: 95%;
 	box-shadow:inset 2px 2px 2px peachpuff;
+	position: absolute;
 }
 
 .jumbotron {background-color: orange;}
